@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Researcher Regular';
+    src: url('ResearcherRegular.woff2') format('woff2'),
+        url('ResearcherRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Researcher Thin';
+    src: url('ResearcherThin.woff2') format('woff2'),
+        url('ResearcherThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 90vh;
+}
+
+body {
+    background-image: url(Website-Normal.png);
+    background-size: cover;
+}
+
+.hackBgImage {
+    display: none;
+    background-image: url(Hacking-Background.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.458);
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    height: 90vh;
+    color: white;
+}
+
+.container h1 {
+    font-family: 'Researcher Regular', sans-serif;
+    font-size: 60px;
+}
+
+.container p {
+    font-family: 'Researcher Thin', sans-serif;
+    font-size: 35px;
+}
