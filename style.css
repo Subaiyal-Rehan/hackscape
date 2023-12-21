@@ -27,12 +27,14 @@ html {
 
 body {
     background-image: url(Website-Normal.png);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 .hackBgImage {
     display: none;
     background-image: url(Hacking-Background.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     height: 100vh;
@@ -61,4 +63,67 @@ body {
 .container p {
     font-family: 'Researcher Thin', sans-serif;
     font-size: 35px;
+}
+
+.container h2 {
+    font-size: 24px;
+    font-family: 'Researcher Thin', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 1750px) {
+    .container h1 {
+        font-size: 46px;
+    }
+
+    .container p {
+        font-size: 25px;
+    }
+
+    .container h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .container h1 {
+        font-size: 40px;
+    }
+
+    .container p {
+        font-size: 20px;
+    }
+
+    .container h2 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container h1 {
+        font-size: 36px;
+    }
+
+    .container p {
+        font-size: 14px;
+    }
+
+    .container h2 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .container h1 {
+        font-size: 34px;
+    }
+
+    .container p {
+        font-size: 10px;
+    }
+
+    .container h2 {
+        font-size: 12px;
+    }
 }
